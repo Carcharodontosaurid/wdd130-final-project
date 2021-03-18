@@ -1,4 +1,4 @@
-Person Site Project
+Personal Site Project
 ==================
 
 Use this as a starting point for your Personal site.
