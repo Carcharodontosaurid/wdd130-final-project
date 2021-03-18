@@ -1,0 +1,25 @@
+/* Fonts from Google Fonts - more at https://fonts.google.com */
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;400;700&family=Poiret+One&display=swap');
+
+
+.page-identifier {
+    color:orangered ;
+}
+
+.page-header {
+    font-style: italic;
+}
+
+body {
+  background-color: white;
+  font-family: "Maitree","Open Sans", sans-serif;
+  padding: 5px 25px;
+  font-size: 18px;
+  margin: 0;
+  color: #444;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Poiret One", "Merriweather", serif;
+  font-size: 32px;
+}
