@@ -29,7 +29,7 @@ h6 {
   justify-items: center;
 }
 
-#navigation {
+.navigation {
   margin: auto;
   width: 100%;
   display: grid;
@@ -51,6 +51,7 @@ h6 {
   justify-content: center;
   text-align: bottom;
   align-items: flex-end;
+  padding-right: .8em;
 }
 
 .page-img {
@@ -59,6 +60,7 @@ h6 {
 
 .page-name {
   font-size: 3em;
+  text-align: center;
   color: #66FADC;
   border-bottom: 3px solid rgb(185, 185, 185);
 }
