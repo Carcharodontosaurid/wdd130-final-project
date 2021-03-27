@@ -118,6 +118,10 @@ h6 {
   width: 50%;
 }
 
+#intro-img, #style-img {
+  box-shadow: 2px, 2px, 2px, 2px, white;
+}
+
 #style-img {
   grid-row: 2;
   grid-column: 2;
@@ -127,13 +131,41 @@ h6 {
   align-self: flex-end;
 }
 
+ul {
+  list-style-type: none;
+  display: grid;
+}
+
+.form-img-container {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  background: url(http://yoyonews.com/wp-content/uploads/2013/03/Screen-Shot-2013-03-20-at-9.35.57-AM.png);
+  width: 65%;
+  height: 26rem;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.window {
+  color: white;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  width: 40%;
+  height: fit-content;
+  background-color: rgba(0, 0, 0, .15);
+  backdrop-filter: blur(7px);
+}
+
 .footer-elements {
   width: 75%;
   justify-items: center;
   margin: auto;
-  display: grid;
   color: rgba(185, 185, 185, 0.281);
-  list-style-type: none;
   grid-template-columns: 70% 1fr 1fr 1fr;
 }
 
