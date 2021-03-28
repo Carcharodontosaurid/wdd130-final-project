@@ -1,12 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+    <title>Media Card</title>
+    <style>
 
+        img {
+            max-width: 100%;
+        }
+
+        .card {
+            overflow: hidden;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            width: 320px;
+            box-shadow: 1px 1px 4px 1px #888;
+            border-radius: 8px;
+            background-color: white;
+        }
+
+        footer {
+            width: 90%;
+            margin: auto;
+            margin-top: 2em;
+            margin-bottom: 1em;
+            height: fit-content;
+            display: grid;
+            grid-template-columns: auto auto 1fr 30%;
+        }
+
+        p {
+            max-width: 90%;
+            margin: auto;
+        }
+
+        button {
+            font: .8em;
+            color: rgba(136, 136, 136, 0.74);
+            background-color: inherit;
+            border-color: rgba(136, 136, 136, 0.74);
+            border-width: 1px;
+        }
+
+        button:hover {
+            color: black;
+        }
+
+        .view-button {
+            border-radius: 4px 0px 0px 4px;
+        }
+
+        .edit-button {
+            border-radius: 0px 4px 4px 0px;
+        }
+
+
+        .little-text {
+            color: rgba(158, 155, 155, 0.712);
+            font-size: .6em;
+            grid-column: 4;
+        }
+    </style>
+</head>
+
+<body>
+    <article class="card">
+        <img src="https://picsum.photos/320/240" alt="Sunset">
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates distinctio, tempore
+                in accusantium eligendi blanditiis aspernatur culpa recusandae sequi maiores saepe necessitatibus
+                debitis aliquam? Facere accusamus explicabo blanditiis quidem quasi.</p>
+        <footer>
+            <button class="view-button">View</button>
+            <button class="edit-button">Edit</button>
+            <p class="little-text">Small Text</p>
+        </footer>
+    </article>
 </body>
+
 </html>
