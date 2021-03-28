@@ -131,9 +131,24 @@ h6 {
   align-self: flex-end;
 }
 
+#form-header {
+  margin: auto;
+}
+
 ul {
   list-style-type: none;
   display: grid;
+}
+
+.form-page {
+  display: grid;
+  grid-template-columns: 1fr 40% 1fr;
+}
+
+.section-form{
+  margin-top: 3rem;
+  /* background-color: white; */
+  grid-column: 2/3;
 }
 
 .form-img-container {
@@ -142,8 +157,8 @@ ul {
   align-content: center;
   margin: auto;
   background: url(http://yoyonews.com/wp-content/uploads/2013/03/Screen-Shot-2013-03-20-at-9.35.57-AM.png);
-  width: 65%;
-  height: 26rem;
+  /* width: 65%; */
+  height: 25rem;
   background-size: contain;
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -224,4 +239,3 @@ hr {
 a:hover {
   color: #66FADC;
 }
-
