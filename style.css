@@ -28,6 +28,10 @@ h6 {
   justify-items: center;
 }
 
+.header-img {
+  width: 100%;
+}
+
 .navigation {
   margin: auto;
   width: 100%;
