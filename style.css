@@ -57,7 +57,6 @@ h6 {
   grid-column: 1;
   display: flex;
   justify-content: center;
-  text-align: bottom;
   align-items: flex-end;
   padding-right: 0.8em;
 }
@@ -95,6 +94,8 @@ h6 {
 
 #intro-paragraph {
   padding-right: 3em;
+  /* grid-row: 2; */
+  /* grid-column: 3; */
 }
 
 #intro-img {
@@ -124,10 +125,6 @@ h6 {
   text-align: center;
   margin: auto;
   width: 50%;
-}
-
-#intro-img, #style-img {
-  box-shadow: 2px, 2px, 2px, 2px, white;
 }
 
 #style-img {
@@ -253,6 +250,7 @@ ul {
   margin: auto;
   margin-top: 1.2em;
 }
+
 
 .footer-social ul {
   display: grid;
