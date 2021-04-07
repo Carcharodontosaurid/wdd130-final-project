@@ -1,96 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="style.css" />
-    <title>Submit a Trick!</title>
-  </head>
-  <body>
-    <div class="header">
-      <div class="navigation">
-        <a class="nav-header" href="sub-form.html">Submit a Trick</a>
-        <a class="nav-header" href="index.html">Home</a>
-        <img class="nav-logo"
-          src="https://cdn.glitch.com/a84d813c-d8f7-4f30-b96c-adb598063eab%2Ftriangle.jpg?v=1613873226457" width="100%"
-          alt="Infinite Triangle Logo">
-        <a class="nav-header" href="play-styles.html">Styles</a>
-        <a class="nav-header" href="featured-video.html">Featured Video</a>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Submit a Trick!</title>
+</head>
+
+<body>
+  <div class="header">
+    <div class="navigation">
+      <a class="nav-header" href="sub-form.html">Submit a Trick</a>
+      <a class="nav-header" href="index.html">Home</a>
+      <img class="nav-logo"
+        src="https://cdn.glitch.com/a84d813c-d8f7-4f30-b96c-adb598063eab%2Ftriangle.jpg?v=1613873226457"
+        alt="Infinite Triangle Logo">
+      <a class="nav-header" href="play-styles.html">Styles</a>
+      <a class="nav-header" href="featured-video.html">Featured Video</a>
+    </div>
+    <div class="page-id-space">
+      <div class="page-name-space">
+        <h2 class="page-name">
+          Submit a Trick
+        </h2>
       </div>
-      <div class="page-id-space">
-        <div class="page-name-space">
-          <h2 class="page-name">
-            Submit a Trick
-          </h2>
-        </div>
-        <img class="header-img"
-          src="https://cdn.shopify.com/s/files/1/0748/4967/files/Learn-Trick-Full-Width.jpg?1537422418872711851"
-          alt="complicated yoyo trick" />
-      </div>
+      <img class="header-img"
+        src="https://cdn.shopify.com/s/files/1/0748/4967/files/Learn-Trick-Full-Width.jpg?1537422418872711851"
+        alt="complicated yoyo trick" />
     </div>
-    </div>
-    <div class="form-page">
-      <div class="section-form" id="form-intro">
-        <div class="form-img-container">
-          <div class="window">
-            <p class="form-paragraph">
-              We want to see what you come up with! Send us a video of your trick or
-              combo and you might make our spotlight!
-            </p>
-            <div id="feedback">
-              <form>
-                <ul class="form-list">
-                  <li>
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" />
-                  </li>
-                  <li>
-                    <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" />
-                  </li>
-                  <li>
-                    <label for="file">Video file:</label>
-                    <input type="file" id="file" name="file" />
-                  </li>
-                  <li class="button">
-                    <button type="submit">Submit</button>
-                  </li>
-                </ul>
-              </form>
-            </div>
-          </div>
-        </div>
-        </div>
-    </div>
-    <div class="footer">
-      <hr class="footer-line" />
-      <ul class="footer-elements">
-        <li class="footer-copyright">
-          &copy 2021 Zack Pedersen | Infinite Triangle
-        </li>
-        <li><a class="footer-nav" href="site-plan.html">Site Plan</a></li>
-        <li>
-          <a class="footer-nav" href="https://yoyoexpert.com" target="_blank">Resources</a>
-        </li>
-        <li class="footer-scroll">
-          <a href="#"><img class="scroll-img"
-              src="https://images.squarespace-cdn.com/content/56742a3adc5cb45c57b3465e/1450455987124-IAYIO9SBFZ31SS8OXN3V/Logo_Black.png?format=1500w&content-type=image%2Fpng"
-              width="30" /></a>
-        </li>
-      </ul>
-      <div class="footer-social">
-        <h3 class="social-header">Check Us Out On Social Media</h3>
-        <ul closs="social-elements">
-          <li><a href="https://www.facebook.com" target="_blank"><img
-                src="https://cdn.glitch.com/0d41727a-7f95-4b1d-b4c6-66a49c78f8a8%2Ffacebook.png?v=1614479852716"
-                width="50" /></a></li>
-          <li><a href="https://www.youtube.com" target="_blank"><img
-                src="https://cdn.glitch.com/0d41727a-7f95-4b1d-b4c6-66a49c78f8a8%2Fyoutube.png?v=1614479850247"
-                width="50" /></a></li>
-          <li><a href="https://www.instagram.com" target="_blank"><img
-                src="https://cdn.glitch.com/0d41727a-7f95-4b1d-b4c6-66a49c78f8a8%2Finstagram.png?v=1614479851260"
-                width="50" /></a></li>
+  </div>
+  <div class="form-page">
+    <h3 class="form-intro">
+      We want to see what you come up with! Send us a video of your trick or
+      combo and you might make our spotlight!
+    </h3>
+    <hr class="form-line" />
+    <div class="form-container">
+      <form>
+        <ul class="form-list">
+          <li id="form-name">
+            <label for="name">Name:</label>
+            <em></em>
+            <input type="text" id="name" name="name" />
+          </li>
+          <li id="form-email">
+            <label for="email">E-mail:</label>
+            <em></em>
+            <input type="email" id="email" name="email" />
+          </li>
+          <li id="form-trick">
+            <label for="trick">Trick:</label>
+            <em></em>
+            <input type="text" id="trick" name="trick" />
+          </li>
+          <li id="form-file">
+            <label for="file">Video file:</label>
+            <em></em>
+            <input type="file" id="file" name="file" />
+          </li>
         </ul>
-      </div>
-  </body>
+      </form>
+      <button class="form-button" type="submit">Submit</button>
+    </div>
+  </div>
+  <div class="footer">
+    <hr class="footer-line" />
+    <ul class="footer-elements">
+      <li class="footer-copyright">
+        &copy 2021 Zack Pedersen | Infinite Triangle
+      </li>
+      <li><a class="footer-nav" href="site-plan.html">Site Plan</a></li>
+      <li>
+        <a class="footer-nav" href="https://yoyoexpert.com" target="_blank">Resources</a>
+      </li>
+      <li class="footer-scroll">
+        <a href="#"><img class="scroll-img"
+            src="https://images.squarespace-cdn.com/content/56742a3adc5cb45c57b3465e/1450455987124-IAYIO9SBFZ31SS8OXN3V/Logo_Black.png?format=1500w&content-type=image%2Fpng"
+            width="30" /></a>
+      </li>
+    </ul>
+    <div class="footer-social">
+      <h3 class="social-header">Check Us Out On Social Media</h3>
+      <ul closs="social-elements">
+        <li><a href="https://www.facebook.com" target="_blank"><img
+              src="https://cdn.glitch.com/0d41727a-7f95-4b1d-b4c6-66a49c78f8a8%2Ffacebook.png?v=1614479852716"
+              width="50" /></a></li>
+        <li><a href="https://www.youtube.com" target="_blank"><img
+              src="https://cdn.glitch.com/0d41727a-7f95-4b1d-b4c6-66a49c78f8a8%2Fyoutube.png?v=1614479850247"
+              width="50" /></a></li>
+        <li><a href="https://www.instagram.com" target="_blank"><img
+              src="https://cdn.glitch.com/0d41727a-7f95-4b1d-b4c6-66a49c78f8a8%2Finstagram.png?v=1614479851260"
+              width="50" /></a></li>
+      </ul>
+    </div>
+</body>
+
 </html>
